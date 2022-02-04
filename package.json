@@ -4,10 +4,7 @@
   "private": true,
   "description": "小程序发布平台，详情请看README.md",
   "main": "./private/server/server.js",
-  "author": "lzj",
-  "publishConfig": {
-    "registry": "https://registry.npm.taobao.org"
-  },
+  "author": "bianxiaokai",
   "scripts": {
     "start:dev": "cross-env NODE_ENV=development nodemon --exec 'ts-node ./server/index.js'",
     "start:pro": "cross-env NODE_ENV=production nodemon --exec 'ts-node ./server/index.js'",
